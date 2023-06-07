@@ -9,7 +9,7 @@ Yet Labor was returned to the office was not on the back of uniform swings aroun
 
 This analysis looks at correlating factors that demonstrate where it won and lost votes. 
 
-Where it lost votes is particularly intriguing, as this not only went against the trend but could potentially reveal something deeper: such as the flipping of the political poles, or a reaction to the pandemic. 
+Where it lost votes is particularly intriguing, as this not only went against the trend but could potentially reveal something deeper: such as the flipping of the political poles, or a reaction to the pandemic.  
 
 The two-party-prefered voting system remains the dominant and most effective measure for analyses like this, even in the face of the increased diversity of first-preference voting in 2022, and is the primary metric on which this analysis is carried out.
 
@@ -28,4 +28,7 @@ Data was cleaned and updating with minor analyses before merging all datasets in
 To assist with regression analysis, dummy variables were added for categorical columns.
 
 ### Exploratory data analysis
+![ausvotes22_2](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/6199c5a2-d861-4d9b-8121-e4a44f5d4539)
 
+One of the most notable trends is that most seats that changes hands (TPP) were outside of the country's two biggest states. 
+![AusVotes22_6](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/e527fb1e-a24a-432d-936a-08eba4ca2e32)
