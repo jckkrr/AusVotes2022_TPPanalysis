@@ -28,7 +28,18 @@ Data was cleaned and updating with minor analyses before merging all datasets in
 To assist with regression analysis, dummy variables were added for categorical columns.
 
 ### Exploratory data analysis
-![ausvotes22_2](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/6199c5a2-d861-4d9b-8121-e4a44f5d4539)
-
-One of the most notable trends is that most seats that changes hands (TPP) were outside of the country's two biggest states. 
+One of the most notable trends from the TPP data is that most seats that changes hands (TPP) were outside of the country's two biggest states, and the within New South Wales and Victoria, the biggest swings against the ALP - which bucked the national trend - came in its safest seats.  
 ![AusVotes22_7](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/25e48ac8-ff82-4f80-ba61-c471b83e44db)
+
+The heatmap at the top of this page highlights this trend: richer voters moved left, poorer voters moved right. While both moved towards the centre, future results will show if its part of a switching of the political poles.
+
+While tradies are a political obsession during campaigns, the demographic data shows it is professionals that are the dominant group. 
+![AusVotes22_8](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/c1680af8-b21a-422c-9486-fa2e405cd764)
+
+They are also easily the most dominant group in the seat type that switched hardest to the left: inner metropolitan seats.
+![AusVotes_4](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/54c9eb40-51a6-4f28-9965-2b37aa5908e4)
+
+Likewise, boxplots for ABS SA1 social-geographic data shows how distinctly sperated advantaged and disadvantaged voting cohorts are, while also revealing the ubiquity of the middle class.
+![AusVotes22_9](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/5926a4d6-087b-4885-b1da-1ebbd9624646)
+
+### Correlations
