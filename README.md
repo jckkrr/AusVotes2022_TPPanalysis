@@ -20,4 +20,12 @@ Swings per seat are analyses against a range of social and other factors in an e
 This research was undertaken during the research of a major report into the election for a high-profile political think-tank and campaign group.
 
 
+### Preparing the data
+This research relied four key datasets: the seat-by-seat results of the 2022 election and its 2019 predecessor; plus seat-by-seat social-geographic and demographic data (outling wages, ages, working status and the like) from the ABS.
+
+Data was cleaned and updating with minor analyses before merging all datasets into one. 
+
+To assist with regression analysis, dummy variables were added for categorical columns.
+
+### Exploratory data analysis
 
