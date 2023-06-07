@@ -1,7 +1,7 @@
 ![AusVotes2022_tpp_vs_sa1](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/0bbc1110-0973-4f6f-840b-b82f7c7adc9a)
 
 # Analysing the 2022 Australian federal election result
-### KEYWORDS: linear regression; relational algebra; psephology
+###### KEYWORDS: linear regression; relational algebra; psephology
 
 After three terms in office, Australia's conservative Liberal-National Coalition suffered a humiliating defeat at the May 2022 poll, and one that may yet be terminal for the major Coalition partner.
 
