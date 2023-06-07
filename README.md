@@ -28,10 +28,13 @@ Data was cleaned and updating with minor analyses before merging all datasets in
 To assist with regression analysis, dummy variables were added for categorical columns.
 
 ### Exploratory data analysis
-One of the most notable trends from the TPP data is that most seats that changes hands (TPP) were outside of the country's two biggest states, and the within New South Wales and Victoria, the biggest swings against the ALP - which bucked the national trend - came in its safest seats.  
+One of the most notable trends from the TPP data is that most seats that changed hands (TPP) were outside of the country's two biggest states, New South Wales and Victoria. 
+
+While a number of seats in those two states swung to the right, barely any did in the rest of the country. However, because these swings happened in some of Labor's safest seats, it did not see them lose any seats, and most remain safe for them.
+
 ![AusVotes22_7](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/25e48ac8-ff82-4f80-ba61-c471b83e44db)
 
-The heatmap at the top of this page highlights this trend: richer voters moved left, poorer voters moved right. While both moved towards the centre, future results will show if its part of a switching of the political poles.
+The heatmap at the top of this page highlights this trend in a different way. It shows that richer/more advantaged electorates - traditionally Coalition territory - moved to the left, while poorer/less advantaged ones moved right. Future results will show if this was part of a switching of the political poles or simply a case of seats returning to the mean as a result of the appeal of centre-left/centrist party.
 
 While tradies are a political obsession during campaigns, the demographic data shows it is professionals that are the dominant group. 
 ![AusVotes22_8](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/c1680af8-b21a-422c-9486-fa2e405cd764)
