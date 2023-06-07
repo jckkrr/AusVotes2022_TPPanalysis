@@ -31,4 +31,4 @@ To assist with regression analysis, dummy variables were added for categorical c
 ![ausvotes22_2](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/6199c5a2-d861-4d9b-8121-e4a44f5d4539)
 
 One of the most notable trends is that most seats that changes hands (TPP) were outside of the country's two biggest states. 
-![AusVotes22_6](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/e527fb1e-a24a-432d-936a-08eba4ca2e32)
+![AusVotes22_7](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/25e48ac8-ff82-4f80-ba61-c471b83e44db)
