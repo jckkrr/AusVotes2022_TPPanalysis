@@ -17,7 +17,7 @@ This serves as a legitimate proxy for left/right splits, even where a non-major 
 
 Swings per seat are analyses against a range of social and other factors in an effort to try to determine why there was not a national trend. 
 
-This research was undertaken during the research of a major report into the election for political campaign group GetUp!.
+This research was undertaken during the research of a major report into the election for a high-profile political think-tank and campaign group.
 
 
 
