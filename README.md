@@ -82,28 +82,3 @@ The dominance of younger voters across most electorates is even more noteworthy 
 
 ![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/ef05f3e0-3c59-4e68-b796-e026bc200a56)
 
-
-
-
-Wealth/advantage was strongly correlated to electorate swings, as already noted, with richer/poorer seats both moving towards the centre. 
-
-![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/e552427c-2ff4-4ca0-95e4-72ba3beee46d)
-
-![AusVotes22_19](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/53699e74-857b-441e-a622-14b09cac1365)
-
-This was also reflected in other corraltions: household earnings - and mortgage/rent costs - were negatively correlated with swings to the LNP.
-
-A seat's level of professional workers was as correlated to a leftwards-shift as its percentage of labourers was correlated to a rightsward shift. 
-
-Similarly mirroring was aboserved with inner metropolitian and rural seats.
-
-There was also a strong correlation between a seat's level of single-parent families and a move to the right, although this cohort is relatively small in number.
-![AusVotes22_18](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/d8bf37f2-96ad-43ad-8a07-49002a9a541d)
-
-
-Lastly, it is worth looking at the tradie vote when compared to the laboourer vote. While both postively correlated to LNP swings, the correlation was weaker with tradies. Is this explained by many tradies being small business people with higher wealth? 
-![AusVotes22_13](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/cf147a16-e134-466f-912f-61f3aecd7f99)
-
-
-
-
