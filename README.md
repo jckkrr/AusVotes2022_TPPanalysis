@@ -37,13 +37,17 @@ While a number of seats in those two states swung to the right, barely any did i
 The heatmap at the top of this page highlights this trend in a different way. It shows that richer/more advantaged electorates - traditionally Coalition territory - moved to the left, while poorer/less advantaged ones moved right. Future results will show if this was part of a switching of the political poles or simply a case of seats returning to the mean as a result of the appeal of centre-left/centrist party.
 
 While tradies are a political obsession during campaigns, the demographic data shows it is professionals that are the dominant group. 
-![AusVotes22_8](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/c1680af8-b21a-422c-9486-fa2e405cd764)
+![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/3e9533b3-6333-47bc-a1ca-5d496162978c)
 
 They are also easily the most dominant group in the seat type that switched hardest to the left: inner metropolitan seats.
 ![AusVotes_4](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/54c9eb40-51a6-4f28-9965-2b37aa5908e4)
 
 Likewise, boxplots for ABS SA1 social-geographic data shows how distinctly sperated advantaged and disadvantaged voting cohorts are, while also revealing the ubiquity of the middle class.
-![AusVotes22_9](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/5926a4d6-087b-4885-b1da-1ebbd9624646)
+![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/0cdb99f8-31df-4b00-8743-fc83f2d87927)
+
+The data also shows that while young people are something of an afterthought in political discussion (think of how little attention is taken to addressing the housing crisis, for example). In roughly three of every electorates, people under 35 make up the dominant voting block. This is a situation that is ripe for a political party to make more of.
+
+![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/dae595ac-2cd8-4f29-800e-35b03704133f)
 
 ### Correlations
 Wealth/advantage was strongly correlated to electorate swings, as already noted, with richer/poorer seats both moving towards the centre. 
