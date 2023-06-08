@@ -65,6 +65,8 @@ This is mirrored when looking at types of work. A higher level of professional a
 This mirroring was also seen when looking at state and seat types. Perth's outer suburbs are as closely corralted to swings against the LNP as Melbourne's are for swings towards it. Likewise with the states' rural areas.
 ![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/aa2f6256-4bbd-4113-b3c9-3419f1b6ed46)
 
+As already mentioned, though, the big swings to the LNP came in the safest of ALP seats, leading to not electoral damage for the new government (at least in the short-term). These were also areas hit hardest by COVID lockdowns.
+![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/3d222e79-fa1e-4bc6-ac89-76dcafbd193a)
 
 
 
