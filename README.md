@@ -69,6 +69,12 @@ As already mentioned, though, the big swings to the LNP came in the safest of AL
 ![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/3d222e79-fa1e-4bc6-ac89-76dcafbd193a)
 
 
+Supporting what we have already noted, the strongest correltions, in either direction, were observed in areas reflective of advantage and disadvantage: engagement with work or study; single-parent families; and territary level education. 
+
+![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/fa12f855-2d0a-49e5-b977-dc326633354d)
+
+
+
 
 
 The dominance of younger voters across most electorates is even more noteworthy when looking correlations. There was a negative correlation between a seats percentage of younger voters and their swing to the LNP. Although mild, it was stronger than any correlation in the other direction for older age groups.
