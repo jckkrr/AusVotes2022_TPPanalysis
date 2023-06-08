@@ -54,7 +54,7 @@ The data also shows that while young people are something of an afterthought in 
 
 Further divergence can be found when looking at relationship/correlation between the 2022 swing and various available demographic factors. 
 
-Rarely is this as strong as when looking at relative social advantage. Ordered numerically by category, it creates an almost prefect spectrum. 
+Rarely is this as strong as when looking at relative social advantage. Ordered numerically by socio-economic category, it creates an almost prefect spectrum. 
 
 ![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/78620601-6769-42fb-affe-81f392230d5b)
 
