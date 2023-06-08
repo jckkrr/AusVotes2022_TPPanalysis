@@ -73,7 +73,9 @@ Supporting what we have already noted, the strongest correltions, in either dire
 
 ![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/fa12f855-2d0a-49e5-b977-dc326633354d)
 
+Those that are not engaged includes groups with very different circumstances - retirees and long-term unemployed. Cross-referencing the correlations however shows that it is the latter that is the dominant group. For example, while age correlates very highly with outright home ownership, outright home ownership correlates to only a moderate degree with not being engaged. There is also a negative correlation with education and income.
 
+![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/03178acb-e0bc-46c5-86da-5d192f3564b5)
 
 
 
