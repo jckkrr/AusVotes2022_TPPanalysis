@@ -75,8 +75,7 @@ Supporting what we have already noted, the strongest correltions, in either dire
 
 Those that are not engaged includes groups with very different circumstances - retirees and long-term unemployed. Cross-referencing the correlations however shows that it is the latter that is the dominant group. For example, while age correlates very highly with outright home ownership, outright home ownership correlates to only a moderate degree with not being engaged. There is also a negative correlation with education and income.
 
-![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/03178acb-e0bc-46c5-86da-5d192f3564b5)
-
+![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/00b258df-917c-46f2-a4f2-4107b85c6604)
 
 
 The dominance of younger voters across most electorates is even more noteworthy when looking correlations. There was a negative correlation between a seats percentage of younger voters and their swing to the LNP. Although mild, it was stronger than any correlation in the other direction for older age groups.
