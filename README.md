@@ -32,7 +32,7 @@ One of the most notable trends from the TPP data is that most seats that changed
 
 While a number of seats in those two states swung to the right, barely any did in the rest of the country. However, because these swings happened in some of Labor's safest seats, it did not see them lose any seats, and most remain safe for them.
 
-![AusVotes22_15](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/2643a30e-8dd4-4ea0-81d7-bbcd70167e7d)
+![Screenshot 2023-06-08 114745](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/40642ea4-32d3-4a53-a9d1-faa14177e242)
 
 The heatmap at the top of this page highlights this trend in a different way. It shows that richer/more advantaged electorates - traditionally Coalition territory - moved to the left, while poorer/less advantaged ones moved right. Future results will show if this was part of a switching of the political poles or simply a case of seats returning to the mean as a result of the appeal of centre-left/centrist party.
 
