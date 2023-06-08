@@ -50,7 +50,30 @@ The data also shows that while young people are something of an afterthought in 
 ![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/dae595ac-2cd8-4f29-800e-35b03704133f)
 
 ### Correlations
+
+
+Further divergence can be found when looking at relationship/correlation between the 2022 swing and various available demographic factors. 
+
+Rarely is this as strong as when looking at relative social advantage. Ordered numerically by category, it creates an almost prefect spectrum. 
+
+![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/78620601-6769-42fb-affe-81f392230d5b)
+
+This is mirrored when looking at types of work. A higher level of professional and managerial classes in a seat correlated to wings away from the LNP. The opposite was true for seats with higher levels of manual and technical workers.
+
+![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/fe457206-1b52-4d05-8a3c-91bf526e0a13)
+
+
+
+The dominance of younger voters across most electorates is even more noteworthy when looking correlations. There was a negative correlation between a seats percentage of younger voters and their swing to the LNP. Although mild, it was stronger than any correlation in the other direction for older age groups.
+
+![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/ef05f3e0-3c59-4e68-b796-e026bc200a56)
+
+
+
+
 Wealth/advantage was strongly correlated to electorate swings, as already noted, with richer/poorer seats both moving towards the centre. 
+
+![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/e552427c-2ff4-4ca0-95e4-72ba3beee46d)
 
 ![AusVotes22_19](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/53699e74-857b-441e-a622-14b09cac1365)
 
