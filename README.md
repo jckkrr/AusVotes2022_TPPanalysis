@@ -1,4 +1,4 @@
-![Rplot](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/cf101368-f74d-46ac-802e-484fb0bc88cf)
+![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/f1b77636-528f-495e-8d63-4b2bc1d086f9)
 
 # Analysing the 2022 Australian federal election result
 ###### KEYWORDS: linear regression; relational algebra; psephology; r
@@ -52,59 +52,54 @@ The final data frame has 149 rows and 286 columns.
 
 ### Exploratory data analysis
 
-![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/22c58378-28fe-4e97-826c-662f3690f3bf)
+One of the most notable trends from the TPP data is that most seats that changed hands (TPP) were outside of the country's two biggest states, New South Wales and Victoria.
 
+A number of seats in those two states swung to the right: this occurred much less frequently in the rest of the country. 
 
-One of the most notable trends from the TPP data is that most seats that changed hands (TPP) were outside of the country's two biggest states, New South Wales and Victoria. 
+However, because these swings happened in some of Labor's safest seats, the party did not lose these seats, and many of them remain safe for the party.
 
-While a number of seats in those two states swung to the right, barely any did in the rest of the country. However, because these swings happened in some of Labor's safest seats, it did not see them lose any seats, and most remain safe for them.
+The swings to the left were also generally stronger in the smaller states and territories.
 
 ![Screenshot 2023-06-08 114745](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/40642ea4-32d3-4a53-a9d1-faa14177e242)
 
-The heatmap at the top of this page highlights this trend in a different way. It shows that richer/more advantaged electorates - traditionally Coalition territory - moved to the left, while poorer/less advantaged ones moved right. Future results will show if this was part of a switching of the political poles or simply a case of seats returning to the mean as a result of the appeal of centre-left/centrist party.
+The demographic data also gives a snapshot of the average Australian voter that might have been obvious to anyone following politics in this country in recent years. 
 
-While tradies are a political obsession during campaigns, the demographic data shows it is professionals that are the dominant group. 
-![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/3e9533b3-6333-47bc-a1ca-5d496162978c)
+On the hustings, tradies are lionised and inner-city residents are derided as ‘latte sippers’. Yet it is professionals who are the dominant voting block, and it is in the inner city where voters swung hardest to Labor, indictating they are group not to be ignored, as the heatmap below shows. 
 
-They are also easily the most dominant group in the seat type that switched hardest to the left: inner metropolitan seats.
 ![AusVotes_4](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/54c9eb40-51a6-4f28-9965-2b37aa5908e4)
 
-Likewise, boxplots for ABS SA1 social-geographic data shows how distinctly sperated advantaged and disadvantaged voting cohorts are, while also revealing the ubiquity of the middle class.
+The data also shows the mistake politicians make in treating young people as an afterthought in political discussion. Think, for example, of how little attention is taken to addressing the housing crisis that's meaning younger generations can't buy a house while baby boomers stock on multiple properties. In more than half of all electorates, people under 40 are the dominant voting block, representing a powerful political group.
+
+![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/231a073d-0012-4e34-a68c-580936682277)
+
+From the socio-economic data, the advantage of playing to the middle-class of Australia is clear. While boxplots reveal a disparity in the frequency of high and low socio-economic neighbourhoods between electorates, they also reveal the ubiquity of the middle class, which can be found in pretty consistent numbers in nearly every seat.
+
 ![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/0cdb99f8-31df-4b00-8743-fc83f2d87927)
 
-The data also shows that while young people are something of an afterthought in political discussion (think of how little attention is taken to addressing the housing crisis, for example). In roughly three of every electorates, people under 35 make up the dominant voting block. This is a situation that is ripe for a political party to make more of.
-
-![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/dae595ac-2cd8-4f29-800e-35b03704133f)
-
-![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/5f109a45-285e-4a88-958c-4dd80d8c4f6a)
 
 ### Correlations and social status
 
-Further divergence can be found when looking at relationship/correlation between the 2022 swing and various available demographic factors. 
+So what - if any - relationships are there between the swing in each electorate and its corresponding demographic/socio-geographic data? 
 
-The next step is to check the 250 or so available variables (inc. dummies) for a relationship to the swing in the 2022 election.
+Of the 200 variables  from the Census data to be explored, 1 in 6 displayed some kind of relationship. 
 
-The strongest relationship by far was with the level of voters who finished school at Year 9. The higher the school early completition rate, the more likely it was associated with a swing TO the LNP. This correlation rate was 0.632.
+But one really stood out: the swing’s strongest relationship by far was with a seat’s level of voters who finished school at Year 9.  This correlation rate was 0.632.
 
-At the other end of the spectrum, a seat's level of voters whose mother was born overseas had a -0.503 correlation to the swing.
+It highlighted a larger trend: the more disadvantaged a seat was, the more likely it was to swing to the right.
 
-Around 1 in 8 variables produced a noteworthy correlation, and while most were at low level, they demonstrated that the swing for/against the government was related to levels of advantage or disadvantage. 
+Be it poor health, a broken family, or unemployment, every factor correlated with a swing to the right was also a marker of disadvantage. 
 
-![Rplot](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/72aab128-18f0-40a7-861c-b6782039c18b)
+At the other end of the spectrum, swings to Labor were correlated to markers of advantage, even if some of these were not immediately obvious. 
 
-Indeed, while migration is often assuemed to be a marker of disadvantage, the corraltions show that having a parent born overseas is actually correlated to higher social status. 
+The strongest of these markers, at 0.503, was having one parent, the mother, born overseas. When that parent was the father, the correlation was 0.39. 
 
-By comparision, coming from a single parent household has the opposite effect. 
+Given that migrant groups are often socially and economically disadvantaged, these factors may look out of place beside the other advantage-marking factors correlating to a Labor swing, such as high income, access to public transport and being employed in a professional occupation. 
 
-A seat's level of unemployment and poor health was correlated to both social disadvantage (not surprising) AND  to swings to the conservatives (quite surprising).
+However, their correlations to socio-economic group status shows the opposite. Having one - and just one - of your parents born overseas is correlated to having higher socio-economic status.
 
-Variables that correlated to advanatage - such as high income, employed in professional work and public transport usage - were related to swings towards Labor. 
+(Correlations for having both parents born overseas also pointed in this direction, while having two Australian-born parents went the other way. However, these correlations were too weak to put any emphasis on.)
 
-
-
-
-
-Rarely is this as strong as when looking at relative social advantage. Ordered numerically by socio-economic category, it creates an almost prefect spectrum. 
+This is even more clearly demonstrated when looking simply at the relationship between a seat's socio-economic status and its swing: ordered numerically by socio-economic category, it creates an almost prefect spectrum. 
 
 ![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/78620601-6769-42fb-affe-81f392230d5b)
 
@@ -112,22 +107,10 @@ This is mirrored when looking at types of work. A higher level of professional a
 
 ![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/fe457206-1b52-4d05-8a3c-91bf526e0a13)
 
-This mirroring was also seen when looking at state and seat types. Perth's outer suburbs are as closely corralted to swings against the LNP as Melbourne's are for swings towards it. Likewise with the states' rural areas.
+This mirroring was also seen when looking at state and seat types. Perth's outer suburbs are as closely corralted to swings against the LNP as Melbourne's are for swings towards it. Likewise with the states' rural areas. In fact, at 0.54, a seat being in WA was the strongest correlation there was to a swing to the ALP. 
+
 ![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/aa2f6256-4bbd-4113-b3c9-3419f1b6ed46)
 
-As already mentioned, though, the big swings to the LNP came in the safest of ALP seats, leading to not electoral damage for the new government (at least in the short-term). These were also areas hit hardest by COVID lockdowns.
-![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/3d222e79-fa1e-4bc6-ac89-76dcafbd193a)
+### Next steps
 
-
-Supporting what we have already noted, the strongest correltions, in either direction, were observed in areas reflective of advantage and disadvantage: engagement with work or study; single-parent families; and territary level education. 
-
-![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/fa12f855-2d0a-49e5-b977-dc326633354d)
-
-Those that are not engaged includes groups with very different circumstances - retirees and long-term unemployed. Cross-referencing the correlations however shows that it is the latter that is the dominant group. For example, while age correlates very highly with outright home ownership, outright home ownership correlates to only a moderate degree with not being engaged. There is also a negative correlation with education and income.
-
-![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/00b258df-917c-46f2-a4f2-4107b85c6604)
-
-
-The dominance of younger voters across most electorates is even more noteworthy when looking correlations. There was a negative correlation between a seats percentage of younger voters and their swing to the LNP. Although mild, it was stronger than any correlation in the other direction for older age groups.
-
-![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/09fbb33b-eb3e-40e6-ab82-0609ad0c34a4)
+The next step is to take weights from this research and see if it is predictive of the result for the Victorian state election which cam just a few months later.
