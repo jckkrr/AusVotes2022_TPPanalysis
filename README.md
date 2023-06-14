@@ -4,10 +4,9 @@
 ###### KEYWORDS: linear regression; relational algebra; psephology; r
 
 After three terms in office, Australia's conservative Liberal-National Coalition  (LNP) suffered a humiliating defeat at the May 2022 poll, and one that may be terminal for the major Coalition partner.
-
 Yet the return to office of Labor (ALP) was not on the back of uniform swings around the country.
 
-This analysis, carried out as part of research for a major national think-tank, looks at correlating factors that explain why Labor won and lost votes.
+This analysis - carried out as part of a report for a major national think-tank - looks at correlating factors that explain why Labor won and lost votes where it did.
 
 The results are intriguing.
 
@@ -16,11 +15,40 @@ When looking at the swing for/against the LNP, markers of disadvantage were corr
 It is too early to say if this is part of a flipping of the political poles or simply a return to the centre under a centre-left ALP, but it does run counter to long-established narratives of which social groups support which parties.   
 
 ### Preparing the data
-This research relied four key datasets: the seat-by-seat results of the 2022 election and its 2019 predecessor; plus seat-by-seat social-geographic and demographic data (outling wages, ages, working status and the like) from the ABS.
 
-Data was cleaned and updating with minor analyses before merging all datasets into one. 
+This voting system remains the dominant and most effective measure for analyses like this. 
+
+It serves as a legitimate proxy for left/right splits, even in the face of the increased diversity of first-preference voting and where a non-major party candidate has won. 
+
+Therefore, it is the primary electoral metric used in this analysis. 
+
+Swings (based on the TPP vote) are analysed against a range of social and other factors in an effort to try to determine the reasons for the non-uniformity of swings. 
+
+This data was compiled from Census data found on the Australian Bureau of Statistics Census website.
+
+The site provides detailed demographic data on a seat-by-seat basis, and a script was created in Python to scrape the data for each  of these. 
+
+This was compiled into a wide table, with each seat given a row. 
+
+Seat-by-seat data is also available for state electorates.
+
+Seat-by-seat social-geographic and demographic data was also found in an Excel spreadsheet on the ABS site.
+
+This data divides the country in geographic nuggets containing a few hundred people (such as local neighbourhoods) and allocates each a socio-economic ranking (based on wages, ages, working status and the like). 
+
+These rankings go from 1 to 10, with the poorest/most disadvantaged at the bottom of the scale. The number of nuggets of each ranking type contained within a seat is then tallied together.
+
+This data gives the research extra depth, allowing for direct socio analysis.
+
+Using relational algebra, all data sets were then outer-joined to create a large and wide data frame.  
+
+Given the well-compiled state of the various data sets, only basic cleaning was required. For example, where a column was missing values, these were removed.
+
+New electorates were not included either, given the lack of previous data. 
 
 To assist with regression analysis, dummy variables were added for categorical columns.
+
+The final data frame has 149 rows and 286 columns.
 
 ### Exploratory data analysis
 One of the most notable trends from the TPP data is that most seats that changed hands (TPP) were outside of the country's two biggest states, New South Wales and Victoria. 
@@ -43,6 +71,8 @@ Likewise, boxplots for ABS SA1 social-geographic data shows how distinctly spera
 The data also shows that while young people are something of an afterthought in political discussion (think of how little attention is taken to addressing the housing crisis, for example). In roughly three of every electorates, people under 35 make up the dominant voting block. This is a situation that is ripe for a political party to make more of.
 
 ![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/dae595ac-2cd8-4f29-800e-35b03704133f)
+
+![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/5f109a45-285e-4a88-958c-4dd80d8c4f6a)
 
 ### Correlations and social status
 
