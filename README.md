@@ -128,7 +128,7 @@ The next step is to take weights from this research and see if it is predictive 
                                                                       richSA1s -0.4506907 -0.02241145 8.038734e-09 0.20312207
 
 When combined, the following factors produced an r.squared value of over 0.41:
-'Highest.educational.level..Year.9.or.below..';
-'Country.of.birth.of.parents..Mother.only.born.overseas..'
-'Family.composition..One.parent.family..'
-'Unpaid.domestic.work..number.of.hours..Less.than.5.hours..'
+- 'Highest.educational.level..Year.9.or.below..';
+- 'Country.of.birth.of.parents..Mother.only.born.overseas..'
+- 'Family.composition..One.parent.family..'
+- 'Unpaid.domestic.work..number.of.hours..Less.than.5.hours..'
