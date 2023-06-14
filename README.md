@@ -111,6 +111,24 @@ This mirroring was also seen when looking at state and seat types. Perth's outer
 
 ![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/aa2f6256-4bbd-4113-b3c9-3419f1b6ed46)
 
-### Next steps
+### Predicting the Victorian electorate
 
 The next step is to take weights from this research and see if it is predictive of the result for the Victorian state election which cam just a few months later.
+
+                                                                             c          r       slope         pval        rsq
+                                  Highest.educational.level..Year.9.or.below..  0.6320066  1.08363681 5.455635e-18 0.39943234
+                                                                            WA -0.5423790 -7.61886567 9.031010e-13 0.29417500
+                      Country.of.birth.of.parents..Mother.only.born.overseas.. -0.5032340 -1.79065918 6.111931e-11 0.25324444
+                                                                   poorSA1s_pc  0.5002700  0.10527728 8.232090e-11 0.25027003
+                    Unpaid.domestic.work..number.of.hours..Less.than.5.hours.. -0.4667638 -0.84450991 1.970629e-09 0.21786848
+                                       Family.composition..One.parent.family..  0.4563208  0.73913201 4.953333e-09 0.20822863
+                      Participation.in.the.labour.force..In.the.labour.force.. -0.4523052 -0.33978628 7.002776e-09 0.20458004
+                                                                 Decile.8.SA1s -0.4521301 -0.10167682 7.108606e-09 0.20442164
+                                Type.of.long.term.health.condition..Diabetes..  0.4517898  1.85048144 7.318675e-09 0.20411402
+                                                                      richSA1s -0.4506907 -0.02241145 8.038734e-09 0.20312207
+
+When combined, the following factors produced an r.squared value of over 0.41:
+'Highest.educational.level..Year.9.or.below..';
+'Country.of.birth.of.parents..Mother.only.born.overseas..'
+'Family.composition..One.parent.family..'
+'Unpaid.domestic.work..number.of.hours..Less.than.5.hours..'
