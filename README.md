@@ -1,4 +1,4 @@
-![AusVotes2022_tpp_vs_sa1](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/0bbc1110-0973-4f6f-840b-b82f7c7adc9a)
+![Rplot](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/cf101368-f74d-46ac-802e-484fb0bc88cf)
 
 # Analysing the 2022 Australian federal election result
 ###### KEYWORDS: linear regression; relational algebra; psephology; r
@@ -49,10 +49,31 @@ The data also shows that while young people are something of an afterthought in 
 
 ![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/dae595ac-2cd8-4f29-800e-35b03704133f)
 
-### Correlations
-
+### Correlations and social status
 
 Further divergence can be found when looking at relationship/correlation between the 2022 swing and various available demographic factors. 
+
+The next step is to check the 250 or so available variables (inc. dummies) for a relationship to the swing in the 2022 election.
+
+The strongest relationship by far was with the level of voters who finished school at Year 9. The higher the school early completition rate, the more likely it was associated with a swing TO the LNP. This correlation rate was 0.632.
+
+At the other end of the spectrum, a seat's level of voters whose mother was born overseas had a -0.503 correlation to the swing.
+
+Around 1 in 8 variables produced a noteworthy correlation, and while most were at low level, they demonstrated that the swing for/against the government was related to levels of advantage or disadvantage. 
+
+![Rplot](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/72aab128-18f0-40a7-861c-b6782039c18b)
+
+Indeed, while migration is often assuemed to be a marker of disadvantage, the corraltions show that having a parent born overseas is actually correlated to higher social status. 
+
+By comparision, coming from a single parent household has the opposite effect. 
+
+A seat's level of unemployment and poor health was correlated to both social disadvantage (not surprising) AND  to swings to the conservatives (quite surprising).
+
+Variables that correlated to advanatage - such as high income, employed in professional work and public transport usage - were related to swings towards Labor. 
+
+
+
+
 
 Rarely is this as strong as when looking at relative social advantage. Ordered numerically by socio-economic category, it creates an almost prefect spectrum. 
 
@@ -80,5 +101,4 @@ Those that are not engaged includes groups with very different circumstances - r
 
 The dominance of younger voters across most electorates is even more noteworthy when looking correlations. There was a negative correlation between a seats percentage of younger voters and their swing to the LNP. Although mild, it was stronger than any correlation in the other direction for older age groups.
 
-![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/ef05f3e0-3c59-4e68-b796-e026bc200a56)
-
+![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/09fbb33b-eb3e-40e6-ab82-0609ad0c34a4)
