@@ -51,6 +51,10 @@ To assist with regression analysis, dummy variables were added for categorical c
 The final data frame has 149 rows and 286 columns.
 
 ### Exploratory data analysis
+
+![image](https://github.com/jckkrr/AusVotes2022_TPPanalysis/assets/69304112/22c58378-28fe-4e97-826c-662f3690f3bf)
+
+
 One of the most notable trends from the TPP data is that most seats that changed hands (TPP) were outside of the country's two biggest states, New South Wales and Victoria. 
 
 While a number of seats in those two states swung to the right, barely any did in the rest of the country. However, because these swings happened in some of Labor's safest seats, it did not see them lose any seats, and most remain safe for them.
