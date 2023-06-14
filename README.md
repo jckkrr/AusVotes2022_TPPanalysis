@@ -132,3 +132,10 @@ When combined, the following factors produced an r.squared value of over 0.41:
 - 'Country.of.birth.of.parents..Mother.only.born.overseas..'
 - 'Family.composition..One.parent.family..'
 - 'Unpaid.domestic.work..number.of.hours..Less.than.5.hours..'
+
+However, an r-squared value of over 0.48 could be achieved by adding the percent of LNP vote received in the preceding election (in 2019). This increased the p-value of many factors, making them unnecessary. The final variables selected are:
+- 'Highest.educational.level..Year.9.or.below..';
+- 'Country.of.birth.of.parents..Mother.only.born.overseas..'
+- 'LNPpc.19'
+
+The middle of these could be removed, due its high p-value. However, its inclusion does bump up the r-squared score.
