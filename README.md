@@ -3,22 +3,17 @@
 # Analysing the 2022 Australian federal election result
 ###### KEYWORDS: linear regression; relational algebra; psephology; r
 
-After three terms in office, Australia's conservative Liberal-National Coalition suffered a humiliating defeat at the May 2022 poll, and one that may yet be terminal for the major Coalition partner.
+After three terms in office, Australia's conservative Liberal-National Coalition  (LNP) suffered a humiliating defeat at the May 2022 poll, and one that may be terminal for the major Coalition partner.
 
-Yet Labor was returned to the office was not on the back of uniform swings around the country. 
+Yet the return to office of Labor (ALP) was not on the back of uniform swings around the country.
 
-This analysis looks at correlating factors that demonstrate where it won and lost votes. 
+This analysis, carried out as part of research for a major national think-tank, looks at correlating factors that explain why Labor won and lost votes.
 
-Where it lost votes is particularly intriguing, as this not only went against the trend but could potentially reveal something deeper: such as the flipping of the political poles, or a reaction to the pandemic.  
+The results are intriguing.
 
-The two-party-prefered voting system remains the dominant and most effective measure for analyses like this, even in the face of the increased diversity of first-preference voting in 2022, and is the primary metric on which this analysis is carried out.
+When looking at the swing for/against the LNP, markers of disadvantage were correlated with a move to the right; those of advantage with a left-wards shift.
 
-This serves as a legitimate proxy for left/right splits, even where a non-major party candidate has won.
-
-Swings per seat are analyses against a range of social and other factors in an effort to try to determine why there was not a national trend. 
-
-This research was undertaken during the research of a major report into the election for a high-profile political think-tank and campaign group.
-
+It is too early to say if this is part of a flipping of the political poles or simply a return to the centre under a centre-left ALP, but it does run counter to long-established narratives of which social groups support which parties.   
 
 ### Preparing the data
 This research relied four key datasets: the seat-by-seat results of the 2022 election and its 2019 predecessor; plus seat-by-seat social-geographic and demographic data (outling wages, ages, working status and the like) from the ABS.
