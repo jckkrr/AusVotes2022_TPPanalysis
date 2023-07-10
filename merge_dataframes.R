@@ -1,11 +1,10 @@
+dfMERGE <- dfTPPCOMPARE %>% inner_join(dfCED %>% inner_join(dfSA1, by = 'seat'), by = 'seat')
 
-### Brings the three main dataframes together using relational algebra, and then clean up and add dummy variables for linear regression 
-
-dfMERGE <-dfTPPCOMPARE %>% inner_join((dfDEMOS %>% inner_join(dfSA1, by = 'Seat')), by = 'Seat')
-dim(dfMERGE)
-names(dfMERGE)
 
 ### Make dummy variables for linear regression
+
+dfMERGE['LNP_19'] <- ifelse(dfMERGE$PartyAb.19 == 'LNP',1, 0)
+
 states <- unique(dfMERGE$state)
 for (state in states) {
   dfMERGE[state] <- ifelse(dfMERGE$state == state,1, 0)
@@ -29,32 +28,34 @@ for (stateseattype in stateseattypes) {
 }
 
 
-##############
+## Convert number columns from chars 
+numeric_cols <- colnames(dfMERGE)[28:length(colnames(dfMERGE))]
+for (col in numeric_cols) {
+  print(col)
+  dfMERGE[col] <- dfMERGE[col] %>% unlist %>% as.numeric()
+}
 
+occupation_cols <- list()
+for (cn in colnames(dfMERGE)) {
+  if (grepl('Occupation', cn, fixed = TRUE)) {
+    occupation_cols <- append(occupation_cols, cn)
+  }
+}
+occupation_cols <- unlist(occupation_cols)
+occupation_cols
 
+parents_cols <- list()
+for (cn in colnames(dfMERGE)) {
+  if (grepl('birth', cn, fixed = TRUE)) {
+    if (!grepl('Not.stated', cn, fixed = TRUE)) {
+      parents_cols <- append(parents_cols, cn)
+    }
+  }
+}
+parents_cols <- unlist(parents_cols)
+parents_cols
 
+age_cols <- c("Age..0.4.years..","Age..5.9.years..","Age..10.14.years..","Age..15.19.years..","Age..20.24.years..","Age..25.29.years..","Age..30.34.years..", "Age..35.39.years..","Age..40.44.years..","Age..45.49.years..","Age..50.54.years..","Age..55.59.years..","Age..60.64.years..","Age..65.69.years..", "Age..70.74.years.." ,"Age..75.79.years..","Age..80.84.years..","Age..85.years.and.over..")
 
-dfx <- dfMERGE %>% select(Swing.22, X0.17pc,  X18.34pc, X35.49pc, X50.64pc, X65.79pc, X80.pc)
-corrplot(cor(dfx), method = "pie", type="upper")
-
-dfx <- dfMERGE %>% select(Swing.22, Managers_pc, Professionals_pc,TechiciansTradeWorkers_pc, CommunityPersonalServiceWorkers_pc,ClericalAdministrativeWorkers_pc....,SalesWorkers_pc, MachineryOperatorsDrivers_pc, Labourers_pc)
-corrplot(cor(dfx), method = "pie", type="upper")
-
-dfx <- dfMERGE %>% select(Swing.22, Couple.families.without.children_pc, CoupleFamiliesWithChildren_pc, OneParentFamilies_pc, OwnedOutright_pc, OwnedWithMortgage_pc, Rented_pc, FullyEngaged_pc, PartiallyEngaged_pc, AtLeastPartiallyEngaged_pc, NotEngaged_pc, Year12Completion_pc, CertificateIIIOrHigherQualification_pc)
-corrplot(cor(dfx), method = "pie", type="upper")
-
-dfx <- dfMERGE %>% select(Swing.22, MedianHouseholdIncomeWeek, MedianRentWeek, MedianMortgageRepaymentsMonth)
-corrplot(cor(dfx), method = "pie", type="upper")
-
-dfx <- dfMERGE %>% select(Swing.22, SA, VIC, NSW, TAS, ACT, QLD, WA, NT)
-corrplot(cor(dfx), method = "pie", type="upper")
-
-dfx <- dfMERGE %>% select(Swing.22, InnerMetro, OuterMetro, Provincial, Rural)
-corrplot(cor(dfx), method = "pie", type="upper")
-
-dfx <- dfMERGE %>% select(Swing.22, safeALP, verysafeLNP, verysafeALP, safeLNP, marginalLNP, marginalALP)
-corrplot(cor(dfx), method = "pie", type="upper")
-
-dfx <- dfMERGE %>% select(Swing.22, SA_InnerMetro,VIC_OuterMetro,VIC_Provincial,NSW_InnerMetro,SA_Rural,TAS_Provincial,ACT_InnerMetro,NSW_OuterMetro,QLD_Provincial,QLD_OuterMetro,SA_OuterMetro,TAS_Rural,WA_OuterMetro,QLD_InnerMetro,NSW_Rural,VIC_Rural,VIC_InnerMetro,TAS_InnerMetro,NSW_Provincial,WA_InnerMetro,QLD_Rural,WA_Rural,TAS_OuterMetro,NT_Rural,NT_InnerMetro)
-corrplot(cor(dfx), method = "pie", type="upper")
+dim(dfMERGE)
 
